@@ -1,6 +1,5 @@
 /* ------------<*>---------- */
 
-
 /* WORLD NEWS SECTION STARTED */
 
 .container {
@@ -21,22 +20,19 @@
   display: flex;
 }
 
-/* .international-news {
-} */
-
-.global-news-list {
-  /* display: flex;
-  flex-wrap: wrap; */
-  list-style-type: none;
+.international-news {
+  border-bottom: 1px solid #D2D2D2;
 }
 
-.global-new-item {
-  display: flex;
-  flex-wrap: wrap;
-  width: 780px;
-  background: #f6f6f6;
-  border-radius: 15px;
-  margin: 10px;
+.global-content-text {
+  margin-bottom: 50px;
+}
+
+.global-text {
+  margin: 25px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; 
 }
 
 .new-item-content {

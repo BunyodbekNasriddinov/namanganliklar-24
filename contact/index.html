@@ -48,19 +48,19 @@
       <div class="header-middle-inner">
         <ol class="nav-middle-list">
           <li class="nav-middle-item">
-            <a href="#">Главное</a>
+            <a href="../home/index.html">Главное</a>
           </li>
           <li class="nav-middle-item">
-            <a href="#">Интересное</a>
+            <a href="../list/index.html">Интересное</a>
           </li>
           <li class="nav-middle-item">
-            <a href="#">Экономика</a>
+            <a href="../article/index.html">Общество</a>
+          </li>
+          <li class="nav-middle-item">
+            <a href="../contact/index.html">Контакт</a>
           </li>
           <li class="nav-middle-item">
             <a href="#">Политика</a>
-          </li>
-          <li class="nav-middle-item">
-            <a href="#">Общество</a>
           </li>
           <li class="nav-middle-item">
             <a href="#">Технологии</a>
@@ -101,34 +101,38 @@
       <div class="contact-inner">
         <form class="site-form" action="https://echo.htmlacademy.ru" method="post">
           <div class="name-phone">
-            <input class="name" id="name" aria-label="Enter your name" type="text" name="name" placeholder="Имя">
-            <input class="phone-number" id="phone_number" aria-label="Enter your phone number" type="number"
+            <input class="name input" id="name" aria-label="Enter your name" type="text" name="name" placeholder="Имя">
+            <input class="phone-number input" id="phone_number" aria-label="Enter your phone number" type="number"
               name="phone_number" placeholder="Номер телефона">
           </div>
-          <input class="email" id="email" aria-label="Enter your email" type="text" name="email"
+          <input class="email input" id="email" aria-label="Enter your email" type="text" name="email"
             placeholder="Электронная почта">
-          <textarea name="comment" id="comment" aria-label="Enter your comment" placeholder="Текст" cols="30" rows="10">Текст</textarea>
-          <button type="submit">Отправить</button>
+          <textarea class="comment input" name="comment" id="comment" aria-label="Enter your comment" placeholder="Текст" cols="30" rows="10"></textarea>
+          <br>
+          <button class="submit-btn" type="submit">Отправить</button>
         </form>
         <div class="form-info">
           <address>
             <ul class="info-list">
               <li class="info-item">
-                Электронная почта
-                <a href="mailto:info@namanganliklar24.uz">
+                <h3 class="item-title">Электронная почта</h3>
+                <br>
+                <a class="item-link" href="mailto:info@namanganliklar24.uz">
                   info@namanganliklar24.uz
                 </a>
               </li>
               <li class="info-item">
-                Номер телефона
-                <a href="tel:+998885225476">
+                <h3 class="item-title">Номер телефона</h3>
+               
+                <br>
+                <a class="item-link" href="tel:+998885225476">
                   +998 88 522-54-76
                 </a>
               </li>
-              <li class="info-item">
-                Адрес
+              <li class="info-item border-none-item">
+                <h3 class="item-title">Адрес</h3>
                 <br>
-                Ташкент, площадь Мустакиллик, 6
+                <a class="item-address" href="">Ташкент, площадь Мустакиллик, 6</a>
             </ul>
           </address>
         </div>

@@ -15,8 +15,127 @@
 
 .contact-inner {
   display: flex;
+  margin-bottom: 100px;
+}
+
+.site-form {
+  width: 696px;
 }
 
 .name-phone {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.name {
+  width: 343px;
+  margin: 0px 10px 0px 0px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.phone-number {
+  width: 343px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.email {
+  width: 696px;
+  margin-bottom: 10px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.comment {
+  width: 696px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 18px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.submit-btn {
+  display: block;
+  width: 145px;
+  margin-left: auto;
+  padding: 17px 30px;
+  background-color: #7297ef;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.form-info {
+  width: 494px;
+  margin: 0;
+  margin-left: 10px;
+  background: #f6f6f6;
+  border-radius: 10px;
+}
+
+.info-list {
+  margin: 40px 25px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.info-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.item-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.item-link {
+  display: inline-block;
+  margin: 7px 0px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.border-none-item {
+  border: none;
+}
+
+.item-address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
 }

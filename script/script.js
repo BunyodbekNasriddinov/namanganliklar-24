@@ -3,7 +3,7 @@ const body = document.querySelector("body");
 
 function modalView() {
   modal.style.display = "block";
-  body.style.opacity = 0.5;
+  // body.style.opacity = 0.5;
   modal.style.opacity = 1.0;
 }
 
